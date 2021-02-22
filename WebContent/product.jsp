@@ -62,9 +62,9 @@
                <div class="card" style="width: 18rem;">
  				 <img class="card-img-top" src="<%= q.getImage() %> " width="300" height="200" alt="Card image cap">
   			<div class="card-body">
-    		<h5 class="card-title"><%= q.getNom() %></h5>
+    		<h5 class="card-title">Name :<%= q.getNom() %></h5>
    		 <p class="card-text"><%= q.getDescription() %></p>
-   		 <p><%= q.getPrix() %></p>
+   		 <p>Prix : <%= q.getPrix() %> DH</p>
    			 <a href="#" class="btn btn-primary">Vote +1</a>
   			</div>
 			</div>
